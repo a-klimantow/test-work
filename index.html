@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&amp;subset=cyrillic" rel="stylesheet"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header pt-3 pb-5">
         <div class="container-fliud wraper">
-            <div class="row">
-                <div class="logo main-header__content col">
+            <div class="row d-flex align-items-center">
+                <div class="logo main-header__content col-4 ">
                     logo
                 </div>
                 <div class="col">
                     <nav class="main-nav">
-                        <ul class="main-nav__list">
+                        <ul class="main-nav__list d-flex align-items-center justify-content-end">
                             <li class="main-nav__item"><a href="#" class="main-nav__link">главная</a></li>
                             <li class="main-nav__item"><a href="#" class="main-nav__link">о нас</a></li>
                             <li class="main-nav__item"><a href="#" class="main-nav__link">галерея</a></li>
                             <li class="main-nav__item"><a href="#" class="main-nav__link">продукция</a></li>
                             <li class="main-nav__item"><a href="#" class="main-nav__link">события</a></li>
                             <li class="main-nav__item"><a href="#" class="main-nav__link">контакты</a></li>
+                            <li class="main-nav__item"><a href="tel:+79055759875" class="main-nav__link main-nav__link--phone">+7 905 575 98 75</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-
+            <hr class="main-header__content main-header__line">
+            <div class="row main-header__content">
+                <div class="col main-header__text">
+                    <p class="main-header__text--title">«Красивая подача со вкусом»</p>
+                    <p class="main-header__text--subtitle">Olimpikfood более 20 лет занимается организацией и обслуживанием фуршетов детских праздников, корпоративных мероприятий, защитой диссертаций</p>
+                    <a href="#" class="btn main-header__btn">Заказать услугу</a>
+                </div>
+            </div>
+            <div class="row main-header__bottom">
+                <div class="col">
+                    <p class="main-header__bottom--clock">Пн-Пт с 10,00 до 17.00</p>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <p class=main-header__bottom--location>Москва, ул. Делегатская 20, стр. 1</p>
+                </div>
+            </div>
         </div>
     </header>
 </body>
